@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Lâmpada</title>
+</head>
+<body>
+    <header>
+        <h1>Lâmpada</h1>
+        <p></p>
+    </header>
+
+    <section>
+        <div id="lampadas">
+            <img src="lampadaDesligada.svg" id="lampada">
+        </div>
+        <div id="button">
+        <input class="button" type="button" value="Ligar" id="ligar" onclick="Ligar()">
+        <input class="button" type="button" value="Desligar" id="desligar" onclick="Desligar()">
+        </div>
+    </section>
+    <div>
+        <p id="obs"></p>
+    </div>
+    <script src="lampada.js"></script>
+</body>
+</html>
